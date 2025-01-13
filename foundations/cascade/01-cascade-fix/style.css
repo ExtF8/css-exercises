@@ -1,0 +1,64 @@
+<<<<<<< HEAD:foundations/06-cascade-fix/style.css
+#font-test {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para,
+.small-para {
+    color: hsl(0, 100%, 50%);
+    font-size: 22px;
+}
+
+.small-para {
+    font-size: 14px;
+=======
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+>>>>>>> fe95b463284982516875bda0dc888fd869a69c94:foundations/cascade/01-cascade-fix/style.css
+}
+
+#confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+<<<<<<< HEAD:foundations/06-cascade-fix/style.css
+.text.child {
+    color: red;
+    font-size: 14px;
+}
+
+div.text {
+    color: green;
+    font-size: 22px;
+=======
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+>>>>>>> fe95b463284982516875bda0dc888fd869a69c94:foundations/cascade/01-cascade-fix/style.css
+}
